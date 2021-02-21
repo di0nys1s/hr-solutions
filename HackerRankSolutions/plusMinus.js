@@ -1,9 +1,7 @@
-// Complete the plusMinus function below.
 function plusMinus(arr) {
   let plus = 0;
   let minus = 0;
   let zero = 0;
-  let result = [];
   const arrLen = arr.length;
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] > 0) {
@@ -28,4 +26,4 @@ function plusMinus(arr) {
 }
 
 const sampleArr = [1, 2, 3, -1, -2, -3, 0, 0];
-const plusMinusResult = plusMinus(sampleArr);
+// const plusMinusResult = plusMinus(sampleArr);
