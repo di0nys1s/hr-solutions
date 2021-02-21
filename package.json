@@ -1,0 +1,24 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/di0nys1s/hr-solutions.git"
+  },
+  "author": "di0nys1s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/di0nys1s/hr-solutions/issues"
+  },
+  "homepage": "https://github.com/di0nys1s/hr-solutions#readme",
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  },
+  "dependencies": {}
+}

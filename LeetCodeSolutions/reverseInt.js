@@ -1,13 +1,11 @@
 const reverse = function (x) {
-  const reversed = x.toString().split("").reverse().join("");
+  const strReversed = x.toString().split("").reverse().join("");
   rv =
-    parseInt(reversed) > Math.pow(2, 31)
+    parseInt(strReversed) > Math.pow(2, 31)
       ? 0
-      : Math.sign(x) * parseInt(reversed);
-
-  console.log('rv', rv)
+      : Math.sign(x) * parseInt(strReversed);
 
   return rv;
 };
 
-// reverse(-2147483648);
+// reverse(147483648);
